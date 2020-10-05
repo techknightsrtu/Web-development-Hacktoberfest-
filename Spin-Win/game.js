@@ -10,12 +10,12 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-    this.load.image('background', 'Assets/back.jpg');
+    this.load.image('background', 'Assets/back.png');
     this.load.image('mywheel', 'Assets/wheel.png');
     this.load.image('pin', 'Assets/pin.png');;
     this.load.image('stand', 'Assets/stand.png');
-    this.load.image('start', 'Assets/spin-n-win-logo.png.jpg');
-    this.load.image('won', 'Assets/Youwon.jpg');
+    this.load.image('start', 'Assets/spin-n-win-logo.png.png');
+    this.load.image('won', 'Assets/Youwon.png');
 
     this.load.audio('spin', 'Assets/wheel-audio.mp3.mp3');
 }
